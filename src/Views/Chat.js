@@ -29,8 +29,11 @@ function Chat() {
             </div>
             <NewTaskForm reloadTaskList={reloadTaskList} />
         </div>
+
+        
         </div>
     );
 }
 
 export default Chat;
+

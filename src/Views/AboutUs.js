@@ -5,6 +5,7 @@ import img3 from '../Assets/Images/cat3.jpg';
 import img4 from '../Assets/Images/cat4.jpg';
 import MapComponent from '../Components/MapComponent';
 import '../css/AboutUs.css';
+import ChatWidget from '../Components/ChatWidget.js';
 
 //This is created not according to React rules for now:
 
@@ -121,6 +122,8 @@ function AboutUs() {
 
 
         <MapComponent />    
+
+        <ChatWidget />
 
 
 
