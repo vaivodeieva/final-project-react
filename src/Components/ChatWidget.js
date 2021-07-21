@@ -10,7 +10,7 @@ import logo from '../Assets/Images/logo-chat.jpg';
 function Chat() {
 
     useEffect(() => {
-        addResponseMessage('Welcome to our customer service! ');
+        addResponseMessage('Type your message here, we will replay soon!');
     }, []);
 
     const handleNewUserMessage = (newMessage) => {
@@ -27,7 +27,7 @@ function Chat() {
                 handleNewUserMessage={handleNewUserMessage}
                 profileAvatar={logo}
                 title="Do you have a question?"
-                subtitle="Type a message here"
+                subtitle="Leave us a note"
 
             />
         </div>

@@ -57,7 +57,7 @@ function NewTaskForm({reloadTaskList}) {
         <div>
             <div className="row mt-5">
                 <div className="col">
-                    <h3>New todo</h3>
+                    <h3>New to-do</h3>
                 </div>
             </div>
             <div className="row">
