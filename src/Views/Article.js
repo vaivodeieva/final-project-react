@@ -17,12 +17,6 @@ const bredcrumbPaths = [
     { title: 'Mars'},
 ]
 
-// const breadcrumbPaths = [
-//     { link: '/', title: 'Home' },
-//     { link: '/articles', title: 'Articles' },
-//     { title: article.title },
-// ]
-
 function Article() {
 
 
