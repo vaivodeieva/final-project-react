@@ -10,6 +10,7 @@ import ChatWidget from '../Components/ChatWidget.js';
 //This page is created not yet fully according to React rules (for now)  :
 
 function PageAboutUs() {
+  
 
     return (
        
@@ -68,7 +69,8 @@ function PageAboutUs() {
                     mattis rhoncus urna. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue. Sed
                     augue lacus viverra vitae. Senectus et netus et malesuada fames ac turpis. Tempor nec feugiat nisl
                     pretium fusce id velit ut tortor. Nibh mauris cursus mattis molestie a iaculis at erat. Eu augue ut
-                    lectus arcu. </p>
+                    lectus arcu. 
+                    </p>
                 </div>
               </div>
             </div>
