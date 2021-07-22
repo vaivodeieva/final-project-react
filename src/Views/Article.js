@@ -45,7 +45,19 @@ function Article() {
 
 
 
+    const articleElements = articles.map((article, index) => {
+        return (
+            <div className="row " key={index}>
+                <div className="col-12 col-md-12" >
+                    <p>
+                    {article.text}
+                    </p>
+                </div>
+            </div>
+        )
+    })
 
+  
     return (
             <div className="container">
                 <div className="row mt-3">
@@ -77,13 +89,10 @@ function Article() {
                         </SRLWrapper>
                     </div>
                     <div className="col-8">
-                    <p>
-                    We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.
-                    We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.
+                    <p> {articleElements}
                     </p>
                     </div>
                 </div>
-
 
             </div>
         
