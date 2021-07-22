@@ -52,10 +52,7 @@ function Home() {
 
     const articleElements = articles.map((article, index) => {
         return (
-            // <div className="home-bg">
             <div className="col cards " key={index}>
-
-
                 <div className="fx-wrap articles-container">
                     <div className="card" data-href="#">
                         <div class="front">
@@ -79,33 +76,24 @@ function Home() {
                                 <header class="clearfix">
                                     <button class="flip"><span class="zmdi zmdi-replay"></span></button>
                                 </header>
-                                {/* <b>"Welcome to our virtual reality travels!"</b> */}
                                 <strong className="card-title">
                                     <NavLink to={'/articles/' + article.id} className="c-title text-start">
                                         {article.title}
                                     </NavLink>
                                 </strong>
-                                
 
-                                {/* <p>I am considering making this into a Javascript component so you can all show off your business cards.<br/><i>Thank you for your support! ❤</i></p> */}
+
                                 <p className="card-text">{article.text}</p>
                                 <button className="read-more-btn">
-                                <NavLink to={'/articles/' + article.id} className="c-title text-center explore" >Explore...
-                                </NavLink>
-                                   </button>
+                                    <NavLink to={'/articles/' + article.id} className="c-title text-center explore" >Explore...
+                                    </NavLink>
+                                </button>
 
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-               </div>
-            // </div> 
+            </div>
         )
     })
 
@@ -124,12 +112,9 @@ function Home() {
                             <div className="carousel-item">
                                 <img src={slider25} className="d-block w-100" alt="..." />
                             </div>
-
-
                             <div className="carousel-item">
                                 <img src={slider3} className="d-block w-100" alt="..." />
                             </div>
-
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>

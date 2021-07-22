@@ -7,7 +7,7 @@ import Articles from './Views/Articles';
 import Article from './Views/Article';
 import Chat from './Views/Chat';
 import Register from './Views/Register';
-import AboutUs from './Views/AboutUs';
+import PageAboutUs from './Views/PageAboutUs';
 import Page404 from './Views/Page404';
 
 
@@ -33,17 +33,15 @@ function App() {
                     </Route>
 
                     <Route path="/chat">
-                    
-                        <Chat className="colorful-background" />
-                        
+                        <Chat/>  
                     </Route>
 
                     <Route path="/register">
                         <Register />
                     </Route>
 
-                    <Route path="/aboutus">
-                        <AboutUs />
+                    <Route path="/pageaboutus">
+                        <PageAboutUs />
                     </Route>
 
                     <Route>
@@ -54,7 +52,6 @@ function App() {
                 <Footer />
             </Router>
 
-            
         </div>
     );
 }

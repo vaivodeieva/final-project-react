@@ -2,9 +2,7 @@ import { NavLink } from 'react-router-dom';
 import {useState} from 'react';
 import webpagelogo from '../Assets/Images/website-logo.png';
 import '../css/Header.css';
-
 import $ from 'jquery';
-// import { Color } from 'jest-matcher-utils/node_modules/chalk';
 
 
 
@@ -17,8 +15,6 @@ $(document).ready(function () {
         $(this).addClass('active');
     });
 });
-
-
 
 
 function Header() {
@@ -43,20 +39,17 @@ function Header() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex flex row-reverse">
                 <div className="container-fluid">
-                    
                     <button onClick={toggleMainMenu} className={menuTogglerButtonClasses} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className={mainMenuClasses} id="navbarNavAltMarkup">
                         <div className="navbar-nav">
                            <img src={webpagelogo}/>
-                            <NavLink className="nav-link" exact to="/" style={{Color: '#17e3c1'}}>Home</NavLink>
+                            <NavLink className="nav-link" exact to="/">Home</NavLink>
                             <NavLink className="nav-link" to="/articles">Articles</NavLink>
                             <NavLink className="nav-link" to="/chat" >Agenda</NavLink>
                             <NavLink className="nav-link" to="/register" >Join</NavLink>
-                            <NavLink className="nav-link" to="/aboutus" >About Us</NavLink>
-                            {/* <NavLink className="nav-link" to="/page321" >3, 2, 1...</NavLink> */}
-                          
+                            <NavLink className="nav-link" to="/pageaboutus" >About Us</NavLink>                          
                         </div>
                     </div>
                 </div>

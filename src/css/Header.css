@@ -2,18 +2,3 @@
     font-family: cursive;
 }
 
-.nav-link>.active {
-    color: green;
-}
-
-
-.nav-link:hover {
-    color: orange;
-}
-
-.navbar-nav>.active {
-    /* background-color: #C0C0C0; */
-    color: #17e3c1;
-
-}
-

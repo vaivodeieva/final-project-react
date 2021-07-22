@@ -7,9 +7,9 @@ import MapComponent from '../Components/MapComponent';
 import '../css/AboutUs.css';
 import ChatWidget from '../Components/ChatWidget.js';
 
-//This is created not according to React rules for now:
+//This page is created not yet fully according to React rules (for now)  :
 
-function AboutUs() {
+function PageAboutUs() {
 
     return (
        
@@ -42,15 +42,14 @@ function AboutUs() {
                 <div className="col-9 text-field">
                   <p>
                     <p></p>
-                    Adventure always. Paw your face to wake you up in the morning just going to dip my paw in your
-                    coffee and do a taste test - oh never mind i forgot i don't like coffee - you can have that back now
-                    meow and walk away love fish i cry and cry and cry unless you pet me, and then maybe i cry just for
-                    fun. I just saw other cats inside the house and nobody ask me before using my litter box love you,
-                    then bite you but throw down all the stuff in the kitchen for kitty run to human with blood on mouth
-                    from frenzied attack on poor innocent mouse, don't i look cute? so sleep everywhere, but not in my
-                    bed. Ask for petting blow up sofa in 3 seconds or pushed the mug off the table. Go crazy with
-                    excitement when plates are clanked together signalling the arrival of cat food catch small lizards,
-                    bring them into house, then unable to find them on carpet.
+                    Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Dolor sit amet consectetur adipiscing elit
+                    ut aliquam purus. Sodales ut eu sem integer vitae justo. Quam vulputate dignissim suspendisse in.
+                    Dui sapien eget mi proin sed libero. Ultricies mi eget mauris pharetra et ultrices neque. Fames ac
+                    turpis egestas integer eget aliquet. Ornare arcu dui vivamus arcu felis. Sit amet nisl purus in
+                    mollis nunc sed id. Enim lobortis scelerisque fermentum dui. Dis parturient montes nascetur
+                    ridiculus mus mauris vitae ultricies. At consectetur lorem donec massa sapien. Sagittis orci a
+                    scelerisque purus semper eget duis at tellus. Scelerisque varius morbi enim nunc faucibus a
+                    pellentesque. 
                   </p>
                 </div>
               </div>
@@ -103,34 +102,26 @@ function AboutUs() {
                 <div className="col-9 text-field">
                   <p>
                     <p></p>
-                    Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Dolor sit amet consectetur adipiscing elit
-                    ut aliquam purus. Sodales ut eu sem integer vitae justo. Quam vulputate dignissim suspendisse in.
-                    Dui sapien eget mi proin sed libero. Ultricies mi eget mauris pharetra et ultrices neque. Fames ac
-                    turpis egestas integer eget aliquet. Ornare arcu dui vivamus arcu felis. Sit amet nisl purus in
-                    mollis nunc sed id. Enim lobortis scelerisque fermentum dui. Dis parturient montes nascetur
-                    ridiculus mus mauris vitae ultricies. At consectetur lorem donec massa sapien. Sagittis orci a
-                    scelerisque purus semper eget duis at tellus. Scelerisque varius morbi enim nunc faucibus a
-                    pellentesque. </p>
+                   Adventure always. Paw your face to wake you up in the morning just going to dip my paw in your
+                    coffee and do a taste test - oh never mind i forgot i don't like coffee - you can have that back now
+                    meow and walk away love fish i cry and cry and cry unless you pet me, and then maybe i cry just for
+                    fun. I just saw other cats inside the house and nobody ask me before using my litter box love you,
+                    then bite you but throw down all the stuff in the kitchen for kitty run to human with blood on mouth
+                    from frenzied attack on poor innocent mouse, don't i look cute? so sleep everywhere, but not in my
+                    bed. Ask for petting blow up sofa in 3 seconds or pushed the mug off the table. Go crazy with
+                    excitement when plates are clanked together signalling the arrival of cat food catch small lizards,
+                    bring them into house, then unable to find them on carpet.
+                    
+                   </p>
                 </div>
               </div>
             </div>
-         
         </div>
-
         </div>
-
-
-
         <MapComponent />    
-
         <ChatWidget />
-
-
-
-
-
         </div>
     )
 }
 
-export default AboutUs;
+export default PageAboutUs;

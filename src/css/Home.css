@@ -1,14 +1,5 @@
 
 
-/* body {
-    overflow-x: hidden;
-} */
-
-/* body {
-  background-color: #07094a;
-
-} */
-
 html,
 body {
   height: 100%;
@@ -16,8 +7,6 @@ body {
   overflow-x: hidden;
 }
 .cards {
-  /* padding: 30px;
-  background-color: #f9f9f9; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -128,7 +117,6 @@ body {
   border-bottom-left-radius: 4px;
   background-size: cover;
   width: 108px;
-  /* background-color: #f5f5f5; */
   position: relative;
 }
 .fx-wrap .card>.front .image .heading,
@@ -141,7 +129,6 @@ body {
   padding: 10px;
   font-size: 1.5em;
   text-align: right;
-  /* color: #fff; */
   text-transform: uppercase;
 }
 .fx-wrap .card>.front {
@@ -159,7 +146,6 @@ body {
 .fx-wrap .card>.back header b,
 .fx-wrap .card>.back .text b {
   color: #0098a6;
-  /* width: 80%; */
   margin: 0 auto;
 }
 .fx-wrap .card>.back header p,
@@ -199,18 +185,7 @@ body {
   margin-left: 0;
 }
 
-
-
-.agenda-background {
-  /* background-image: url('../agenda-bg.jpg'); */
-  background-image: url('../pic-agenda.jpg');
-  background-size:  cover;
-  background-position:center center;
-  
-}
-
 .home-bg {
-  /* background: url('../pic-agenda.jpg'); */
     background-size:  cover;
     background-position:center center;
     margin-left: 95px;
@@ -218,6 +193,5 @@ body {
     margin-top: 5px;
 
     padding: 0;
-    /* background: #16a8cf; */
 }
 

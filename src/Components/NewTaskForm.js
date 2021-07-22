@@ -40,8 +40,8 @@ function NewTaskForm({reloadTaskList}) {
 
     let inputField = <input className="form-control" value={newTaskName} onChange={updateNewTaskName} />
     let submitBtn = (
-        <button className="btn btn-primary mt-3 "  onClick={createNewTask}>
-            Add new todo
+        <button  className="btn btn-primary mt-3 "   onClick={createNewTask}>
+            Add
         </button>
     )
     if (saving) {

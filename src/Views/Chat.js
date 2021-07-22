@@ -11,26 +11,22 @@ function Chat() {
         setCounter(counter + 1);
     }
 
-    
-
 
     return (
-        <div className="agenda-background" > 
-        <div className="chat-container" >
-            <div >
-                <div className="col agenda-wrapper">
-                    <h1>My Agenda</h1>
+        <div className="agenda-background" >
+            <div className="chat-container" >
+                <div >
+                    <div className="col agenda-wrapper">
+                        <h1>My Agenda</h1>
+                    </div>
                 </div>
-            </div>
-            <div className="row ">
-                <div className="col">
-                     <TasksList reloadTaskList={reloadTaskList} counter={counter} />
+                <div className="row ">
+                    <div className="col">
+                        <TasksList reloadTaskList={reloadTaskList} counter={counter} />
+                    </div>
                 </div>
+                <NewTaskForm reloadTaskList={reloadTaskList} />
             </div>
-            <NewTaskForm reloadTaskList={reloadTaskList} />
-        </div>
-
-        
         </div>
     );
 }
